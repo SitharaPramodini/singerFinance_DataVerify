@@ -236,7 +236,7 @@ const Login = () => {
               onClick={handleSubmit}
               disabled={isLoading || !formData.username || !formData.password}
               className={`w-full py-4 px-6 bg-gradient-to-r from-[#ed1b24] to-red-700 text-white font-semibold rounded-xl transition-all duration-300 transform hover:scale-[1.02] hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-red-200 relative overflow-hidden group ${
-                isLoading || !formData.username || !formData.password
+                isLoading 
                   ? 'opacity-60 cursor-not-allowed' 
                   : 'hover:shadow-2xl shadow-lg'
               }`}
